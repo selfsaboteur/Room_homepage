@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Room Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mq_style.css">
+    <link rel="stylesheet" href="hamburger__style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="images/icon-hamburger.svg" alt="">
+        </a>
+
+        <div id="myLinks">
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#">Shop</a>
+            <a href="#">Home</a>
+        </div>
+
+    </div>
+
+    <header class="header">
+
+
+
+        <img class="logo" src="images/logo.svg" alt="room">
+        <nav class="nav">
+            <a class="nav__item" href="#">Home</a>
+            <a class="nav__item" href="#">Shop</a>
+            <a class="nav__item" href="#">About</a>
+            <a class="nav__item" href="#">Contact</a>
+        </nav>
+
+
+
+    </header>
+
+    <section class="slider">
+
+        <div class="slider__item mySlides">
+
+            <img class="slider__img desktop__img" src="images/desktop-image-hero-1.jpg" alt="">
+            <img class="slider__img mobile__img" src="images/mobile-image-hero-1.jpg" alt="">
+
+            <div class="slider__inner">
+                <div class="slider__text">
+                    <h1 class="sld__header">Discover innovative ways to decorate</h1>
+                    <p class="sld__paragraph">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property
+                        a reflection of you and what you love.</p>
+                    <a class="sld__link" href="">Shop Now <img class="arrow" src="images/icon-arrow.svg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="slider__item mySlides">
+
+            <img class="slider__img desktop__img" src="images/desktop-image-hero-2.jpg" alt="">
+            <img class="slider__img mobile__img" src="images/mobile-image-hero-2.jpg" alt="">
+
+            <div class="slider__inner">
+                <div class="slider__text">
+                    <h1 class="sld__header">We are available all across the globe</h1>
+                    <p class="sld__paragraph">With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions?
+                        Don't hesitate to contact us today.</p>
+                    <a class="sld__link" href="">Shop Now  <img class="arrow" src="images/icon-arrow.svg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="slider__item mySlides">
+
+            <img class="slider__img desktop__img" src="images/desktop-image-hero-3.jpg" alt="">
+            <img class="slider__img mobile__img" src="images/mobile-image-hero-3.jpg" alt="">
+
+            <div class="slider__inner">
+                <div class="slider__text">
+                    <h1 class="sld__header">Manufactured with the best materials</h1>
+                    <p class="sld__paragraph">Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry,
+                        we understand what customers want for their home and office.</p>
+                    <a class="sld__link" href="">Shop Now  <img class="arrow" src="images/icon-arrow.svg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button class="display-left btn" onclick="plusDivs(-1)"><img src="images/icon-angle-left.svg" alt=""></button>
+            <button class="display-right btn" onclick="plusDivs(+1)"><img src="images/icon-angle-right.svg" alt=""></button>
+        </div>
+
+    </section>
+    <!-- Slider -->
+
+    <section class="container">
+        <img class="container__img" src="images/image-about-dark.jpg" alt="">
+        <div class="container__text">
+            <h2>About our furniture</h2>
+            <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional
+                to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
+        </div>
+        <img class="container__img" src="images/image-about-light.jpg" alt="">
+    </section>
+
+    <script src="script.js"></script>
+
+    <script src="hb_script.js"></script>
+
+</body>
+
+</html>
